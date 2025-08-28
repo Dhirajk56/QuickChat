@@ -46,5 +46,5 @@ import messageRoutes from "./Routes/messageRoutes.js";
 
 app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRoutes);
-app.get("/", (req, res) => res.send("server is running at port 4000"));
+app.get("/", (req, res) => res.send("server is running "));
 server.listen(port, () => console.log(`server is started on PORT:${port}`));
